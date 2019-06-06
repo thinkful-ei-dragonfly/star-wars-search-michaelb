@@ -1,0 +1,68 @@
+
+.CircleButton {
+  background-color: #cacaca;
+  border-radius: 30px;
+  border: 0;
+  color: black;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  height: 60px;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  width: 60px;
+}
+
+a.CircleButton {
+  padding: 16px 8px 8px;
+}
+
+.CircleButton:hover {
+  cursor: pointer;
+}
+
+.note-list-list {
+  list-style-type: none;
+  margin: 130px 0 0;
+  padding: 0;
+}
+
+.note-list-button-wrapper {
+  margin: 0 0 0 auto;
+  max-width: 180px;
+}
+
+.add-button {
+  margin: 20px auto;
+}
+.add-button:hover {
+  background-color: #29862e;
+  color: white;
+}
+
+.note-list-link {
+  background-color: #030f1f;
+  color: #b5b3b3;
+  display: block;
+  font-family: var(--custom-font);
+  font-size: 20px;
+  margin: 0 0 8px auto;
+  max-width: 180px;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.note-list-link:hover {
+  color: #FFB72F;
+  cursor: pointer;
+}
+.note-list-link.active {
+  background-color: #102541;
+}
+
+.note-list-num-notes {
+  color: #adadad;
+  display: block;
+  float: right;
+  font-size: 10px;
+}
